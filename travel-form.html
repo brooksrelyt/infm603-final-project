@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler's Choice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <a class="navbar-brand" href="#">Traveler's Choice Vacation Tool</a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 med-spaces">
+                <h1>Agent Orange</h1>
+                <h6>INFM603 - Final Project</h6>
+                <br>
+                <p>Sort Project Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p> 
+                <hr>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-6 offset-3">
+                        <form method="post" action="/select-vacation.php">
+                            <div class="form-group">
+                                <label for="fname">First Name:</label>
+                                <input class="form-control" type="text" name="fname">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name:</label>
+                                <input class="form-control" type="text" name="lname">
+                            </div>
+                            <div class="form-group">
+                                <label for="fname">Age:</label>
+                                <input class="form-control" type="text" name="fname">
+                            </div>
+                            <div class="input-group">
+                                <select class="custom-select" name="gender">
+                                    <option selected>Select Gender...</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                </select>
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
